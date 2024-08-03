@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Bangers&family=Calistoga&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Lilita+One&family=Playwrite+HR+Lijeva:wght@100..400&display=swap");
+
+@font-face {
+  font-family: found;
+  src: url(fonts/Slussen-Expanded-Black.woff2);
+}
+@font-face {
+  font-family: face;
+  src: url(fonts/Slussen-Compressed-Black\ \(2\).woff2);
+}
+
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+#main > #page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #26262d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+#main > #page2 {
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  color: #111;
+  position: relative;
+  overflow: hidden;
+}
+
+#main > #page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #26262d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+#main #heading {
+  color: #fff;
+  font-size: 7vw;
+  text-transform: uppercase;
+  font-family: "Calistoga", sans-serif;
+}
+
+#main i {
+  font-size: 10vw;
+  color: #fff;
+}
+
+#main > #page2 > .top {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#main > #page2 > .center {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#main > #page2 > .bottom {
+  width: 100%;
+  height: 50vh;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+#big {
+  font-family: "Lilita One", sans-serif;
+  font-size: 16vw;
+}
+
+.b-heading {
+  position: absolute;
+  top: -126px;
+}
+
+.t-heading {
+  position: absolute;
+  bottom: -124px;
+}
+
+#main > #page2 > .center > h1 {
+  font-size: 10vw;
+  font-family: face;
+}
+
+#main > #page2 > .center > h2 {
+  font-size: 4vw;
+  color: #ff98a2;
+  font-family: found;
+}
